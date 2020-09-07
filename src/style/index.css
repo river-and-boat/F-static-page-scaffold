@@ -33,7 +33,7 @@ header div {
   margin-left: 20%;
 }
 
-header h4 {
+header h5 {
   margin-right: 20%;
 }
 
@@ -42,4 +42,51 @@ header h4 {
   color: white;
   height: 25px;
   margin: 33px 5px;
+}
+
+main {
+  margin-top: 0px;
+  background-color: #e9ebee;
+  display: flex;
+}
+
+.content {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 13%;
+}
+
+.body-list {
+  display: flex;
+}
+
+.operate-caption {
+  text-align: center;
+}
+
+.operate-figure {
+  text-align: center;
+}
+
+.operate-left {
+  background-color: white;
+  margin: 50px 20px 0 0;
+  text-align: center;
+}
+
+.operate-right {
+  background-color: white;
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+.operate-left button,
+.operate-right button {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
 }
