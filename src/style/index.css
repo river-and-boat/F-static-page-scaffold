@@ -18,3 +18,28 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: #3b5998;
+  color: white;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div {
+  display: flex;
+  margin-left: 20%;
+}
+
+header h4 {
+  margin-right: 20%;
+}
+
+.register-button {
+  background-color: #42b72a;
+  color: white;
+  height: 25px;
+  margin: 33px 5px;
+}
